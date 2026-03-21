@@ -302,7 +302,7 @@
       "fill_form": "Completa los datos siguientes:",
       "first_name": "Nombre",
       "last_name": "Apellidos",
-      "company": "Empresa",
+      "company": "RUT/RUN",
       "phone": "Número de teléfono",
       "address1": "Línea 1 de dirección",
       "address2": "Línea 2 de dirección",
@@ -444,6 +444,26 @@
         "one": "Ha recibido {{ count }} reseña.",
         "other": "Ha recibido {{ count }} reseñas."
       }
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "company_label": "RUT/RUN",
+        "optional_company_label": "RUT/RUN (Opcional)"
+      },
+      "field_errors": {
+        "address_company_blank": "Introduce un numero RUT/RUN valido.",
+        "address_company_too_long": "Un RUT/RUN tan largo? Que raro! ",
+        "address_company_contains_html_tags": "Ehh ehh, que haces? ",
+        "address_company_contains_emojis": "jiji, nos gustan los emojis! pero pon tu RUT/RUN porfavor!",
+        "address_company_contains_mathematical_symbols": "Nos pusimos tecnicos con los RUT/RUN, verdad?"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "company": "RUT/RUN"
     }
   }
 }
